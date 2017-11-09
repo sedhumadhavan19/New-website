@@ -1,0 +1,55 @@
+.about-banner{
+	background-image: url('http://hdblackwallpaper.com/wallpaper/2015/08/black-and-white-wallpaper-hd-1-desktop-wallpaper.jpg');
+	height: 70vh;
+	position: relative;
+}
+.company-heading{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	font-size: 64px;
+	font-weight: bold;
+	color: #fff;
+}
+.company-desc{
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: 45%;
+	left: 34%;
+  width: 519px;
+  p{
+  	text-align: center;
+  }
+}
+.value-head{
+	p{
+		color: #fff;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+	}
+}
+.idea-flex-parent{
+	display: flex;
+	flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+	.idea-flex-child{
+		width: 35%;
+		padding: 25px;
+		color: #fff;
+		p{
+			font-size: 16px;
+    	line-height: 22px;
+		}
+	}
+}
+.btn-cntr	{
+	text-align: center;
+	padding: 50px 0;
+}
