@@ -12,7 +12,7 @@
 	position: absolute;
 	bottom: 10%;
 	left: 50%;
-}
+}	
 
 
 /* TYPEWRITER */
@@ -24,7 +24,7 @@
   border-right: 20px solid rgba(255,255,255,.75);
   color: #fff;
   font-size: 40px;
-  text-align: center;
+  
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);    
@@ -44,5 +44,60 @@
   to{border-right-color: transparent;}
 }
 
+.ptb-70{
+	padding: 70px 0;
+}
 
+/* Average flex */
+#home-page{
+	.how-we-dng p{
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+	}
+	.avg-user-flex{
+		display: flex;
+		flex-direction: row;
+		width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+		.avg-user-child{
+			width: 35%;
+			text-align: center;
+			position: relative;
+			padding-top: 30px;
+      box-shadow: 0 0 14px 0 rgba(0,0,0,.4);
+      p{
+      	font-size: 20px;
+      	color: #fff;
+      	padding-bottom: 10px;
+      }
+		}
+	}
+}
 
+/* TYPEWRITER */
+.no-of-data{
+  position: absolute;
+  left: 40%; 
+  width: 5em;
+  border-right: 1px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.no-anim-typewriter{
+  animation: typewriter-num 5s steps(44) 1s 1 normal both,
+             blinkTextCursor-num 500ms steps(44) infinite normal;
+}
+@keyframes typewriter-num{
+  from{width: 0;}
+  to{width: 3em;}
+}
+@keyframes blinkTextCursor-num{from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+	 		
