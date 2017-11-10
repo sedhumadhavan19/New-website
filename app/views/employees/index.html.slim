@@ -5,6 +5,7 @@ table
     tr
       th Name
       th Designation
+      th Picture
       th
       th
       th
@@ -14,6 +15,7 @@ table
       tr
         td = employee.name
         td = employee.designation
+        td = employee.avatar.url
         td = link_to 'Show', employee
         td = link_to 'Edit', edit_employee_path(employee)
         td = link_to 'Destroy', employee, data: { confirm: 'Are you sure?' }, method: :delete

@@ -6,6 +6,9 @@ p
 p
   strong Designation:
   = @employee.designation
+p
+	strong Picture
+	= image_tag @employee.avatar.url, width:"100px"
 
 => link_to 'Edit', edit_employee_path(@employee)
 '|

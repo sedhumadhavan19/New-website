@@ -3,7 +3,8 @@
 
   .form-inputs
     = f.input :name
-    = f.input :designation
+    = f.input :designation, as: :select, collection: [['Front End', 'Front_End'], ['Back End', 'Back_End~'], ['Full Stack', 'Full_Stack']]
+    = f.file_field :avatar
 
   .form-actions
     = f.button :submit
