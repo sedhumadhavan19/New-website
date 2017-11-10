@@ -12,7 +12,8 @@ gem 'jquery-ui-rails'
 
 #slim
 gem "slim-rails"
-
+#paperclip
+gem "paperclip", "~> 5.0.0"
 #simpleform
 gem 'simple_form'
 gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
